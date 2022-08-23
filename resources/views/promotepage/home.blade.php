@@ -32,12 +32,12 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
+                            <img class="img-fluid" src="public/template/promote/assets/img/BBTEA.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Doracha</b> Tea</h1>
-                                <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
+                                <h1 class="h1 text-success"><b>Doracha Tea</b></h1>
+                                <h3 class="h2">ชานมไข่มุกโดราชะ</h3>
                                 <p>
                                     Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
                                     This template is 100% free provided by <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
@@ -103,7 +103,7 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">Type of Menu</h1>
+                <h1 class="h1"><b>Type of Menu</b></h1>
                 <p>
                    ประเภทเมนูเครื่องดื่มในร้าน
                 </p>
@@ -111,17 +111,17 @@
         </div>
         <div class="row" id="img">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="../../../public/template/promote/assets/img/BBTEA.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="{{ asset('template/promote/assets/img/BBTEA.jpg') }}" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">Bubble Tea</h5>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="{{ asset('template/promote/assets/img/BBTEA.jpg') }}" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Tea</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="{{ asset('template/promote/assets/img/BBTEA.jpg') }}" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Green Tea</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
@@ -131,17 +131,17 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="{{ asset('template/promote/assets/img/BBTEA.jpg') }}"  class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">Soda</h5>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="{{ asset('template/promote/assets/img/BBTEA.jpg') }}"  class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Coffee</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src="{{ asset('template/promote/assets/img/BBTEA.jpg') }}"  class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Snack</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
@@ -157,7 +157,7 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Beverage</h1>
+                    <h1 class="h1"><b>Beverage</b></h1>
                     <p>
                        เมนูแนะนำ
                     </p>
@@ -167,17 +167,11 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/BBTEA.jpg" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/TeaTea.jpg') }}" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
+                               
                                 <li class="text-muted text-right">45THB</li>
                             </ul>
                             <a href="shop-single.html" class="h2 text-decoration-none text-dark">Bubble Tea</a>
@@ -191,17 +185,11 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/Smoothies.jpg" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/TeaTea.jpg') }}" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
+                               
                                 <li class="text-muted text-right">40THB</li>
                             </ul>
                             <a href="shop-single.html" class="h2 text-decoration-none text-dark">Smoothie</a>
@@ -215,22 +203,16 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/icedgreentealatte.jpg" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/TeaTea.jpg') }}" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
+                               
                                 <li class="text-muted text-right">40THB</li>
                             </ul>
                             <a href="shop-single.html" class="h2 text-decoration-none text-dark">Iced Green Tea Latte</a>
                             <p class="card-text">
-                                ชาเขียว
+                                ชาเขียวเย็น
                             </p>
                             <a class="btn btn-success">Buy</a>
                         </div>

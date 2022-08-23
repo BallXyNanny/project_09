@@ -22,24 +22,18 @@
             </div>
 
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+               
+            </div>
+
+
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light"><b>Products</b></h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li><a class="text-decoration-none" href="#">Bubble Tea</a></li>
                     <li><a class="text-decoration-none" href="#">Tea</a></li>
                     <li><a class="text-decoration-none" href="#">Soda</a></li>
                     <li><a class="text-decoration-none" href="#">Coffee</a></li>
                     <li><a class="text-decoration-none" href="#">Snack</a></li>
-                </ul>
-            </div>
-
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
-                <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="#">Home</a></li>
-                    <li><a class="text-decoration-none" href="#">About Us</a></li>
-                    <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                    <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                    <li><a class="text-decoration-none" href="#">Contact</a></li>
                 </ul>
             </div>
 
@@ -72,7 +66,7 @@
             <div class="row pt-2">
                 <div class="col-12">
                     <p class="text-left text-light">
-                        Copyright &copy; 2022 Company Name 
+                        Copyright &copy; 2022 DoraCha
                         | Designed by Template </a>
                     </p>
                 </div>

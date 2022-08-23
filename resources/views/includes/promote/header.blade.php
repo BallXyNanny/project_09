@@ -32,16 +32,16 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php">หน้าหลัก</a>
+                            <a class="nav-link" href="../../promotepage/home.blade.php"><b>หน้าหลัก</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.php">เมนู</a>
+                            <a class="nav-link" href="shop.php"><b>เมนู</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">ติดต่อ</a>
+                            <a class="nav-link" href="contact.blade.php"><b>ติดต่อ</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Info.php">การจัดส่ง</a>
+                            <a class="nav-link" href="Info.php"><b>การจัดส่ง</b></a>
                         </li>
                     </ul>
                 </div>
