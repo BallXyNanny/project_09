@@ -23,7 +23,7 @@
             <a class="navbar-brand text-success logo h1 align-self-center" href="DoraCha.php">
             DoraCha
             </a>
-
+    
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,19 +32,16 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link" href="index.php">หน้าหลัก</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link" href="shop.php">เมนู</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.php">Menu</a>
+                            <a class="nav-link" href="contact.php">ติดต่อ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Info.php">Info</a>
+                            <a class="nav-link" href="Info.php">การจัดส่ง</a>
                         </li>
                     </ul>
                 </div>

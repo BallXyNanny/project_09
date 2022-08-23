@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // ของจารสา
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 //ของจารเดียร์
-// Route::view('/', 'promotepage.home')->name('home');
-// Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
+Route::view('/', 'promotepage.home')->name('home');
+Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
